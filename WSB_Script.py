@@ -23,7 +23,7 @@ WEATHER_API_URL: str = "https://api.openweathermap.org/data/2.5/weather"
 API_KEY: str = "API_KEY"
 EMOJI_CODE: dict = {
                    }
-TOKEN: str = "8627950136:AAEKai4ySidUVnQFX3yEkoyFB_6SszA8TZQ"
+TOKEN: str = "YOUR_TOKEN"
 bot = telebot.Telebot(TOKEN)
 keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
 keyboard.add(KeyboardButton("Получить погоду", request_location=True))
